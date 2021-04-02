@@ -50,6 +50,24 @@ Kelas   : TI.19.B1**<br>
    Maka yang akan ditampilkan adalah css eksternal dengan warna merah dan hitam seperti gambar berikut: <br>
    ![image](https://user-images.githubusercontent.com/81253746/113381438-2dacfd80-93a9-11eb-851e-d4de4b031c5e.png)
 
+**4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut
+terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser?
+Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"> )** <br>
+  
+ Karena "ID" memiliki kekhususan (specificity) yang lebih tinggi dari pada "class" maka ID akan ditampilkan oleh browser.
+ Contoh ketika kita memasukan ID dan class pada sebuah paragraf di html sebagai berikut : <br>
+ ![image](https://user-images.githubusercontent.com/81253746/113391438-b9c92000-93bd-11eb-937c-622cd6524c21.png) <br>
+ 
+ Lalu kita menambahkan css dengan style pada ID = rata tengah dan warna font hitam dan pada class = rata kiri dan warna font putih seperti gambar berikut : <br>
+ ![image](https://user-images.githubusercontent.com/81253746/113391653-0f9dc800-93be-11eb-9999-b28b3f40d8aa.png) <br>
+ 
+ Maka style pada selector ID lah yang akan ditampilkan pada browser sebagai berikut : <br>
+ ![image](https://user-images.githubusercontent.com/81253746/113391803-47a50b00-93be-11eb-830c-fe3065595c69.png)
+
+ 
+
+
+
    
 
 
